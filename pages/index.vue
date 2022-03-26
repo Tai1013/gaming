@@ -6,12 +6,15 @@
 export default {
     
     name: 'IndexPage',
-    asyncData(context) {
-        context.$axios.post('/api/login', {
-            fullname: '1231',
-        }).then(res => {
-            // console.log(res.data)
-        })
-    }
+    // asyncData(context) {
+    //     context.$axios.post('/api/login', {
+    //         fullname: '1231',
+    //     }).then(res => {
+    //         // console.log(res.data)
+    //     })
+    // }
 }
 </script>
+<style lang="scss">
+
+</style>
